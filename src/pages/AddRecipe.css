@@ -1,0 +1,66 @@
+.container1 {
+    max-width: 700px; /* Reduced width for a sleek look */
+    margin: 40px auto;
+    padding: 20px;
+    background: #f7c6ef;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* Adds spacing between elements */
+}
+
+label {
+    font-weight: bold;
+    text-align: left;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+    height: 80px; /* Set a default height */
+}
+
+input[type="file"] {
+    border: none;
+}
+
+button {
+    background: #2eb153;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #e63946;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        max-width: 90%;
+        padding: 15px;
+    }
+}
